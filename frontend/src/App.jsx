@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Astrology from "./components/Astrology/Astrology";
 
 import Numerology from "./components/Numerology/Numerology";
+import FeatureSection from "./components/FeatureSection/FeatureSection";
 
 export default function App() {
   return (
@@ -18,7 +19,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="astrology" element={<Astrology />}></Route>
         <Route path="/numerology" element={<Numerology />}></Route>
+        <Route path="/feature" element={<FeatureSection />}></Route>
       </Routes>
+
       <Footer />
     </Router>
   );

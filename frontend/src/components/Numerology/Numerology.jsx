@@ -1,12 +1,13 @@
-import CardNumerology from "./CardNumerology";
-import { numerologyLinks } from "../../../constants";
+import React from "react";
 
-export default function Numerology() {
+const Numerology = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      {numerologyLinks.map((link, index) => (
-        <CardNumerology key={index} link={link} />
-      ))}
+    <div>
+      Numerology
+      <h1>Numerology</h1>
+      <p>Unlock your Life Path NUmber</p>
     </div>
   );
-}
+};
+
+export default Numerology;
