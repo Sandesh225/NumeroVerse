@@ -31,7 +31,7 @@ const HeroSection = () => {
               Explore Numerology
             </Link>
             <Link
-              to="/astrology"
+              to="/horoscope"
               className="px-6 py-3 border border-white text-white hover:bg-white hover:text-black transition duration-200 rounded-lg shadow-md flex items-center"
             >
               <Star className="mr-2" />
